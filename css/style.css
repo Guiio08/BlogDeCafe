@@ -54,6 +54,10 @@ h4{
     font-size: 2.8rem;
 }
 
+img{
+    max-width: 100%;
+}
+
 .no_margin{
     margin: 0;
 }
@@ -135,9 +139,6 @@ h4{
     }
 }
 
-.contenido-principal img{
-    width: 100%;
-}
 
 .entrada{
     border-bottom: 1px solid var(--grisClaro);
@@ -226,11 +227,6 @@ h4{
 }
 
 
-
-.curso img{
-    width: 100%;
-}
-
 @media (min-width: 768px) {
     .curso{
         display: grid;
@@ -244,6 +240,15 @@ h4{
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--grisClaro);
 }
+
+.contacto-bg{
+    background-image: url(../img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 
 
 
